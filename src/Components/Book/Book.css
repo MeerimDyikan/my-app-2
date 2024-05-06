@@ -1,0 +1,120 @@
+.page_txt{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+    }
+    .pages_tit{
+    
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 61px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 25px;
+    }
+    .page_in-tit{
+    width: 572px;
+    height: 30px;
+    margin-bottom: 20px;
+    }
+    .page_in-txt{
+        font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+    }
+    .page_in-img{
+    
+    margin-bottom: 20px;
+    }
+    .page_in-list{
+        font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom:20px;
+    }
+    
+    .page_in-list{
+        counter-reset: test;
+        padding-left: 20px;
+        position: relative;
+    }
+    .page_in-list li{
+        position: relative;
+        padding-left: 20px;
+    }
+    .page_in-list li::before{
+        counter-increment: test;
+        content:counter(test)".";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 20px;
+        font-size: 16px;
+    }
+    .pages-in{
+    width: Hug (1,296px);
+    height: Hug (553px);
+    top: 3107px;
+    left: 152px;
+    gap: 72px;}
+    
+    .page_img-in{
+        width: 332px;
+    height: 221px;
+    top: -13px;
+    left: 318px;
+    border-radius: 12px, 12px, 0px, 0px;
+    
+    }
+    .form_in{
+        position: relative;
+        padding: 42px 49 px;
+        background: #fff;
+        border-radius: 16px;
+        max-width: 812px;
+        margin: 0 auto ;
+        box-shadow:0 3px 60px 0 rgba(0, 0,0,0.08) ;
+    }
+    .form_input{
+        width: calc(50% - 12px);
+        
+        margin-bottom: 24px;
+    }
+    .form_input__big{
+        width: 100%;
+    }
+    .form_tit{
+        display: block;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    .input{
+        display: block;
+        border-radius: 72px;
+        border: 1px solid #dbdfd0;
+        padding: 24px;
+    }
+    .form_btn{
+        width: 100%;
+    }
+    .form_btn .btn{
+        
+    width: 100%;
+    padding: 21px 24px;
+    }
+    .map{
+        height: 767px;
+        background: red;
+        margin-top: -245px;
+        
+    }
