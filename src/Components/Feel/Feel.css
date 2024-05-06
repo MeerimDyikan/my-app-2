@@ -1,0 +1,43 @@
+
+.feel .sec_tit {
+	color: white;
+	max-width: 596px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.feel_item {
+	position: relative;
+
+	width: calc((100%-174px)/4);
+}
+
+.feel_ic {
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(../../img/icons/restaurant-menu\ 1.svg) center no-repeat;
+}
+
+.feel_item:nth-child(2) .feel_ic {
+	background: url(../../img/icons/Icon.svg);
+}
+
+.feel_item:last-child .feel_ic {
+	background: url(../../img/icons/timer\ 1.svg);
+}
+
+.feel_tit {
+	color: #2c2f24;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 26px;
+	padding-left: 72px;
+	margin-bottom: 12px;
+}
+
+.feel_txt {
+	padding-left: 72px;
+}
