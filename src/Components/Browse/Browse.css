@@ -1,0 +1,50 @@
+
+.browse_card {
+	border-radius: 12px;
+	border: 2px solid #08dfd0;
+	
+	background: #fff;
+	padding: 40px 34px 32px;
+	width: calc((100%-72px)/4);
+
+
+}.browse_ic {
+	width: 42px;
+	height: 43px;
+	display: block;
+	border-radius: 50%;
+	background-image: #f3f3f3 url(../../img/icons/browse-1.svg)center no-repeat;
+	margin: 0 auto 30px;
+	
+}
+
+.browse_tit {
+	color: #2c2f24;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: -0.72px;
+	margin-bottom: 15 px;
+}
+
+.browse_txt {
+	color: #414536;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 31px;
+
+}
+
+.browse_link {
+	color: #ad343e;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	width: 120px;
+	display: block;
+	margin: 0 auto;
+}

@@ -1,0 +1,60 @@
+food_left {
+	width: calc(100%-551px);
+
+}
+
+.food_img-sm {
+	width: 290px;
+	padding-top: 30px;
+}
+
+.food_img-big {
+	width: calc(100%-314px);
+}
+
+.food_right {
+	width: 461px;
+	align-self: center;
+}
+
+.food .sec_tit {
+	margin-bottom: 2px;
+}
+
+.food_txt {
+	color: #414536;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 50px;
+
+}
+
+.food_list li {
+	color: #2c2f24;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 26px;
+	position: relative;
+	margin-bottom: 20px;
+	padding-left: 50px;
+}
+
+.food_list li::before {
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #ad343e url(../../img/icons/phone.svg) center no-repeat;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.food_list li:nth-child(2) ::before {
+	background: url(../../img/icons/location-marker.svg);
+}
+
+.food_list li:last :last-child ::before {
+	background: url(../../img/logo.svg);
+}

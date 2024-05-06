@@ -1,0 +1,20 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   .flex li {
+    padding-right: 40px;
+   }
+   .head_in{
+    margin-top: 35px;
+   }
+    .menu{
+    margin:auto ; 
+    cursor: pointer;
+   }
+   .menu li:hover{
+       border-radius: 34px;
+       background: #DBDFD0;
+    transition: 0.2s;
+   }

@@ -1,0 +1,28 @@
+.Btn {
+	color: #182226;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0px;
+	padding: 20px 32px;
+	border-radius: 118px;
+	border: 2px solid #2c2f24;
+	width: auto;
+	align-self: flex-start;
+	transition: 0.3s;
+}
+.Btn__bd-grey{
+	border-color: #dbdfd0;
+}
+
+.Btn:hover,
+.Btn_red {
+	background: #ad343e;
+	color: white;
+	border-color: #ad343e;
+}
+
+.btn_red:hover {
+	background: white;
+	border-color: #2c2f24;
+	color: #182226;
+}

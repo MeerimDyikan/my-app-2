@@ -1,0 +1,40 @@
+.event_cards{
+	width: 1,296px;
+height: 443px;
+top: 2769px;
+left: 152px;
+gap: 24px;
+
+justify-content: start;
+}
+.event1{
+	width: 306px;
+height: 320px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+margin-bottom: 30px;
+}
+.sec_event{
+	
+font-family: DM Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: -0.03em;
+text-align: center;
+margin-bottom: 30px;
+}
+.event_p{
+	width: 280px;
+height: 48px;
+gap: 0px;
+opacity: 0px;
+
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-bottom: 30px;
+}
